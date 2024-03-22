@@ -32,14 +32,14 @@ loading_animation() {
 }
 
 success_animation() {
-    for ((i=0; i<5; i++)); do
+    for ((i=0; i<3; i++)); do
         echo -e "${GREEN}✓${NC}"
         sleep 0.1
     done
 }
 
 failure_animation() {
-    for ((i=0; i<5; i++)); do
+    for ((i=0; i<3; i++)); do
         echo -e "${RED}✗${NC}"
         sleep 0.1
     done
